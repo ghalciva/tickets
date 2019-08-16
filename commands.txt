@@ -1,0 +1,9 @@
+**windows**
+Iniciar mongo:
+C:\Archivos de programa\MongoDB\Server\3.2\bin\mongod.exe --journal --storageEngine=mmapv1 --httpinterface --rest
+
+Para ver mediante http la bd
+http://localhost:28017
+
+Iniciar api:
+C:\Users\Gloria\Desktop\login\npm start
