@@ -7,3 +7,11 @@ http://localhost:28017
 
 Iniciar api:
 C:\Users\Gloria\Desktop\login\npm start
+
+Entrar a mongo:
+C:\Archivos de programa\MongoDB\Server\3.2\bin>mongo.exe
+show dbs
+show collections
+db.user.find()
+item=db.user.findOne()
+db.users.update({"_id":ObjectId("")},{$set:{"":""}},false,true)
